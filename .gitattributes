@@ -1,0 +1,17 @@
+# Normalize line endings to LF in the repository, checkout as native
+* text=auto
+
+# Source files
+*.py   text diff=python
+*.ino  text
+*.md   text
+*.txt  text
+*.hex  text
+
+# Windows scripts
+*.bat  text eol=crlf
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.ico  binary

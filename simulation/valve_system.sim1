@@ -1,0 +1,65 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="12,-52" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="../firmware/valve_controller/firmware.hex" Auto_Load="true" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Led" CircId="Led-10" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,76" rotation="90" hflip="1" vflip="1" label="Led-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="SerialPort" CircId="SerialPort-31" mainComp="false" ShowProp="Baudrate" Show_id="false" Show_Val="true" Pos="-52,-228" rotation="180" hflip="-1" vflip="-1" label="SerialPort-31" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Auto="false" Port="COM5" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+
+<item itemtype="Led" CircId="Led-37" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,8" rotation="90" hflip="1" vflip="1" label="Led-37" idLabPos="-16,-24" labelrot="0" valLabPos="21.1416,37.4597" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-38" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,40" rotation="90" hflip="1" vflip="1" label="Led-38" idLabPos="-16,-24" labelrot="0" valLabPos="35.8492,69.7" valLabRot="0" Color="Blue" Grounded="true" Threshold="3.6 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-40" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,-24" rotation="90" hflip="1" vflip="1" label="Led-40" idLabPos="-16,-24" labelrot="0" valLabPos="15.6404,22.1821" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-41" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,-80" rotation="90" hflip="1" vflip="1" label="Led-41" idLabPos="-16,-24" labelrot="0" valLabPos="15.6404,22.1821" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-42" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,-56" rotation="90" hflip="1" vflip="1" label="Led-42" idLabPos="-16,-24" labelrot="0" valLabPos="15.6404,22.1821" valLabRot="0" Color="Red" Grounded="true" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-43" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,-112" rotation="90" hflip="1" vflip="1" label="Led-43" idLabPos="-16,-24" labelrot="0" valLabPos="15.6404,22.1821" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-44" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,-140" rotation="90" hflip="1" vflip="1" label="Led-44" idLabPos="-16,-24" labelrot="0" valLabPos="15.6404,22.1821" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-45" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,-168" rotation="90" hflip="1" vflip="1" label="Led-45" idLabPos="-16,-24" labelrot="0" valLabPos="15.6404,22.1821" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-46" mainComp="false" ShowProp="Color" Show_id="false" Show_Val="true" Pos="-144,-200" rotation="90" hflip="1" vflip="1" label="Led-46" idLabPos="-16,-24" labelrot="0" valLabPos="15.6404,22.1821" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Servo" CircId="Servo-50" mainComp="false" Show_id="true" Show_Val="false" Pos="400,-20" rotation="0" hflip="1" vflip="1" label="Servo-50" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="1.2 _s/60º" MinPulse="1000 _µs" MaxPulse="2000 _µs" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-53" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="276,-136" rotation="0" hflip="1" vflip="1" label="Voltage Source-53" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="5 V" MaxValue="5 V" MinValue="0 V" />
+
+<item itemtype="Ground" CircId="Ground-54" mainComp="false" Show_id="false" Show_Val="false" Pos="284,-20" rotation="90" hflip="1" vflip="1" label="Ground-54" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="SerialPort-31-pin0" endpinid="Uno-1-0" pointList="-92,-236,-92,-36,20,-36" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="SerialPort-31-pin1" endpinid="Uno-1-1" pointList="-92,-220,-92,-28,20,-28" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Led-37-lPin" endpinid="Uno-1-4" pointList="-144,-8,20,-8,20,-4" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="Led-40-lPin" endpinid="Uno-1-5" pointList="-144,-40,20,-40,20,4" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="Led-42-lPin" endpinid="Uno-1-6" pointList="-144,-72,20,-72,20,12" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Led-41-lPin" endpinid="Uno-1-7" pointList="-144,-96,20,-96,20,20" />
+
+<item itemtype="Connector" uid="Connector-91" startpinid="Led-44-lPin" endpinid="Uno-1-9" pointList="-144,-156,20,-156,20,44" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Led-45-lPin" endpinid="Uno-1-10" pointList="-144,-184,-144,52,20,52" />
+
+<item itemtype="Connector" uid="Connector-93" startpinid="Led-46-lPin" endpinid="Uno-1-11" pointList="-144,-216,20,-216,20,60" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="Led-38-lPin" endpinid="Uno-1-3" pointList="-144,24,20,24,20,-12" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Led-10-lPin" endpinid="Uno-1-2" pointList="-144,60,20,60,20,-20" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="Led-43-lPin" endpinid="Uno-1-8" pointList="-144,-128,-144,36,20,36" />
+
+<item itemtype="Connector" uid="Connector-101" startpinid="Servo-50-in2" endpinid="Uno-1-12" pointList="352,-4,20,-4,20,68" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Servo-50-in0" endpinid="Voltage Source-53-outPin" pointList="352,-36,352,-120,304,-120" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="Servo-50-in1" endpinid="Ground-54-Gnd" pointList="352,-20,300,-20" />
+
+</circuit>

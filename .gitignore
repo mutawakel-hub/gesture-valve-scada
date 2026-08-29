@@ -1,0 +1,42 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+
+# ==================== IDE / Editor ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== Arduino ====================
+# Build artifacts produced by arduino-cli / Arduino IDE
+firmware/**/build/
+*.o
+*.d
+*.elf
+*.map
+
+# ==================== Simulation ====================
+# SimulIDE user files / backups
+*.sim1.bak
+* - Copy.sim1
+* - نسخة.sim1
+*.lnk
+
+# ==================== Logs / Temp ====================
+*.log
+*.tmp
+*.temp

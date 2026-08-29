@@ -1,0 +1,10 @@
+# Smart Gesture-Controlled Industrial Valve System — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+opencv-python>=4.5.0
+mediapipe>=0.10.0
+numpy>=1.21.0
+Pillow>=8.0.0
+PySerial>=3.5
+arabic-reshaper>=2.1.3
+python-bidi>=0.4.2
